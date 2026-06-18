@@ -6,20 +6,20 @@ Connect to Microsoft Graph, pick a group, device, or user, and the tool brings b
 
 ![Intune Assignments Finder preview](assets/preview.png)
 
-## Features
+## ✨ Features
 
-- Check assignments by group, device, or user
-- Detect `All devices` and `All users` assignments
-- Show Intune categories such as apps, compliance, configuration, scripts, remediations, and more
-- Search devices by name, serial number, Intune ID, or Azure AD device ID
-- Search users by email or UPN
-- Interactive Microsoft Graph sign-in, scoped to work or school accounts
-- Toggle Microsoft Graph connection from the main button: connect, disconnect, then reconnect when needed
-- Windows Forms interface with quick filters and an integrated log console
-- CSV export in UTF-8 with `;` separator
-- Audit-only behavior: no Intune assignment is modified
+- 🔍 Check assignments by group, device, or user
+- 📱 Detect `All devices` and `All users` assignments
+- 🎯 Show Intune categories such as apps, compliance, configuration, scripts, remediations, and more
+- 🧭 Search devices by name, serial number, Intune ID, or Azure AD device ID
+- 🧑‍💼 Search users by email or UPN
+- 🔐 Interactive Microsoft Graph sign-in, scoped to work or school accounts
+- 🔄 Toggle Microsoft Graph connection from the main button: connect, disconnect, then reconnect when needed
+- 📊 Windows Forms interface with quick filters and an integrated log console
+- 📤 CSV export in UTF-8 with `;` separator
+- 🧾 Audit-only behavior: no Intune assignment is modified
 
-## Prerequisites
+## 📋 Prerequisites
 
 ### PowerShell
 
@@ -66,7 +66,7 @@ The following scopes are requested during sign-in:
 
 Depending on your tenant settings, admin consent may be required.
 
-## Start
+## 🚀 Start
 
 From the project folder:
 
@@ -93,7 +93,7 @@ Then:
 
 To disconnect from Microsoft Graph, click `Disconnect Graph`. The button returns to `Graph connection`, and clicking it again starts a new authentication flow.
 
-## Microsoft Graph Sign-In
+## 🔐 Microsoft Graph Sign-In
 
 On Windows, sign-in by Web Account Manager (WAM) is enabled by default. If you start the tool from an embedded terminal, such as the VS Code terminal, the interactive browser window may be hidden behind other windows.
 
@@ -101,7 +101,7 @@ The tool writes this reminder both to the PowerShell console and to the integrat
 
 If the interactive sign-in window cannot be opened, the tool falls back to device code sign-in and displays instructions.
 
-## What It Checks
+## 📦 What It Checks
 
 - Intune applications
 - Configuration profiles
@@ -112,7 +112,7 @@ If the interactive sign-in window cannot be opened, the tool falls back to devic
 - Remediations
 - Intune PowerShell scripts
 
-## Default Groups
+## 🧩 Default Groups
 
 The default group list is loaded from:
 
@@ -122,7 +122,7 @@ C:\Temp\ListGroups.txt
 
 Use one group name per line.
 
-## Troubleshooting
+## 🛠 Troubleshooting
 
 ### Graph Sign-In Issues
 
@@ -150,6 +150,6 @@ Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 
 Check access to PowerShell Gallery, corporate proxy settings, TLS, or workstation restrictions.
 
-## AI-Built
+## 🤖 AI-Built
 
 This tool was built with AI assistance, from the PowerShell GUI to the README.
