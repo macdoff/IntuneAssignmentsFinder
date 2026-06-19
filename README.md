@@ -6,6 +6,8 @@ Connect to Microsoft Graph, pick a group, device, or user, and the tool brings b
 
 ![Intune Assignments Finder preview](assets/preview.png)
 
+![Intune Assignments Finder preview 1](assets/preview1.png)
+
 ## ✨ Features
 
 - 🔍 Check assignments by group, device, or user
